@@ -43,6 +43,6 @@ class Generator:
         img_obj.paste(pic_obj, (img_width - (pic_width - 127), img_height - (pic_height + 157)))
         img_obj.save(f"{self.name}'s_id_card.png")
         
-# Instantiate the class
+# Instantiate the classs
 Generator()
 
